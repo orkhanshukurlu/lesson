@@ -1,3 +1,3 @@
-module generics
+module goto-statement
 
 go 1.27.1
