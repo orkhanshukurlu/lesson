@@ -12,5 +12,5 @@ func sum(nums ...int) (total int) {
 func main() {
 	values := []int{1, 2, 3}
 	summed := sum(values...)
-	fmt.Println("summed:", summed)
+	fmt.Println(summed) // 6
 }

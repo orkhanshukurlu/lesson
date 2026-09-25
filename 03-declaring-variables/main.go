@@ -6,6 +6,6 @@ func main() {
 	firstname := "John"
 	lastname := "Doe"
 
-	fmt.Println(firstname)
-	fmt.Println(lastname)
+	fmt.Println(firstname) // John
+	fmt.Println(lastname)  // Doe
 }

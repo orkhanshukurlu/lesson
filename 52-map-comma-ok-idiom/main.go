@@ -14,5 +14,5 @@ func main() {
 		fmt.Println("john not found")
 	}
 
-	fmt.Println(m["terry"])
+	fmt.Println(m["terry"]) // 0
 }

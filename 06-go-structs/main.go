@@ -13,6 +13,6 @@ func main() {
 		Age:  30,
 	}
 
-	fmt.Println(p.Name)
-	fmt.Println(p.Age)
+	fmt.Println(p.Name) // John
+	fmt.Println(p.Age)  // 30
 }

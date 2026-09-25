@@ -8,14 +8,14 @@ func info() (string, int) {
 
 func main() {
 	name, _ := info()
-	fmt.Println(name)
+	fmt.Println(name) // John
 
 	_, age := info()
-	fmt.Println(age)
+	fmt.Println(age) // 43
 
 	s := []string{"A", "B", "C"}
 
 	for _, val := range s {
-		fmt.Println(val)
+		fmt.Println(val) // A B C
 	}
 }

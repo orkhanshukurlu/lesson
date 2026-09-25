@@ -7,5 +7,5 @@ import (
 
 func main() {
 	s := strings.ToUpper("hello")
-	fmt.Println(s)
+	fmt.Println(s) // HELLO
 }

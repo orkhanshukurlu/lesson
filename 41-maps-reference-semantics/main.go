@@ -16,16 +16,16 @@ func main() {
 	}
 
 	incrementMapValue(m, "age", 4)
-	fmt.Println("Age:", m["age"])
+	fmt.Println(m["age"]) // 36
 
 	a := map[string]int{"age": 42}
 	b := a
 
 	a["age"] = 19
-	fmt.Println("Age of a:", a["age"])
-	fmt.Println("Age of b:", b["age"])
+	fmt.Println(a["age"]) // 19
+	fmt.Println(b["age"]) // 19
 
 	c := map[string]int{"age": 21}
 	reset(c)
-	fmt.Println("Age of c:", c["age"])
+	fmt.Println(c["age"]) // 21
 }

@@ -6,9 +6,9 @@ func main() {
 	x := 10
 	y := float64(x)
 
-	fmt.Println(y)
+	fmt.Println(y) // 10
 
 	r := []rune{'a', 'b', 'c'}
 	s := string(r)
-	fmt.Println(s)
+	fmt.Println(s) // abc
 }

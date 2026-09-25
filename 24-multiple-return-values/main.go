@@ -16,7 +16,7 @@ func main() {
 	if !c {
 		fmt.Println("Cannot divide by zero")
 	} else {
-		fmt.Println("a: ", a)
-		fmt.Println("b: ", b)
+		fmt.Println(a) // 5
+		fmt.Println(b) // 0
 	}
 }

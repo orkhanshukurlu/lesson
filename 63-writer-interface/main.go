@@ -10,7 +10,7 @@ func writeMessage(w io.Writer) {
 	_, err := w.Write([]byte("Hello, World!\n"))
 
 	if err != nil {
-		fmt.Println("Error:", err)
+		fmt.Println(err)
 	}
 }
 
@@ -19,10 +19,16 @@ func main() {
 
 	file, err := os.Create("output.txt")
 	if err != nil {
-		fmt.Println("Error creating file:", err)
+		fmt.Println(err)
 		return
 	}
-	defer file.Close()
 
-	writeMessage(file)
+	defer func(file *os.File) {
+		err := file.Close()
+		if err != nil {
+			fmt.Println(err)
+		}
+	}(file)
+
+	writeMessage(file) // Hello, World!
 }

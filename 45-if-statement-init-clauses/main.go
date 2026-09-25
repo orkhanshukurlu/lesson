@@ -18,13 +18,13 @@ func div(a, b int) (int, error) {
 
 func main() {
 	if err := loadConfig(); err != nil {
-		fmt.Println(err)
+		fmt.Println(err) // config not found
 	} else {
 		fmt.Println("config loaded")
 	}
 
 	if r, err := div(3, 0); err != nil {
-		fmt.Println(err)
+		fmt.Println(err) // division by zero
 	} else {
 		fmt.Println(r)
 	}

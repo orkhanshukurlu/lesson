@@ -22,4 +22,12 @@ func main() {
 
 	t := x.(int)
 	fmt.Println(t)
+	/*
+		panic: interface conversion: interface {} is string, not int
+
+		goroutine 1 [running]:
+		main.main()
+		        /home/orkhan/Projects/lesson/46-type-assertions/main.go:23 +0x9f
+		exit status 2
+	*/
 }

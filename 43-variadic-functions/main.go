@@ -21,7 +21,12 @@ func main() {
 	b := sum(4, 5, 6)
 	c := sum()
 
-	fmt.Println(a, b, c)
+	fmt.Println(a, b, c) // 6 15 0
 
 	greet("Hello", "Alice", "Bob", "Charlie")
+	/*
+		Hello Alice
+		Hello Bob
+		Hello Charlie
+	*/
 }

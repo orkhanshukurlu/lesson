@@ -9,19 +9,19 @@ func main() {
 	str := "123"
 	num, err := strconv.Atoi(str)
 	if err != nil {
-		fmt.Println("Error converting string to integer:", err)
+		fmt.Println(err)
 	} else {
-		fmt.Println("Converted integer:", num)
+		fmt.Println(num) // 123
 	}
 
 	n := 123
 	s := strconv.Itoa(n)
-	fmt.Println("Converted string:", s)
+	fmt.Println(s) // "123"
 
 	parseInt, err := strconv.ParseInt("123", 10, 64)
 	if err != nil {
-		fmt.Println("Error converting string to integer:", err)
+		fmt.Println(err)
 	} else {
-		fmt.Println("Converted integer:", parseInt)
+		fmt.Println(parseInt) // 123
 	}
 }

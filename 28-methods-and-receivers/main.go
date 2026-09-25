@@ -13,5 +13,5 @@ func (u User) FullName() string {
 
 func main() {
 	u := User{FirstName: "John", LastName: "Doe"}
-	fmt.Println(u.FullName())
+	fmt.Println(u.FullName()) // John Doe
 }

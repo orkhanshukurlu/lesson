@@ -16,9 +16,9 @@ func main() {
 	r, err := divide(10, 0)
 
 	if err != nil {
-		fmt.Println("Error:", err)
+		fmt.Println(err) // division by zero
 		return
 	}
 
-	fmt.Println("Result:", r)
+	fmt.Println(r)
 }

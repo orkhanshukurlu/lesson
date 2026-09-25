@@ -10,5 +10,5 @@ func main() {
 		fmt.Println("Value sent")
 	}()
 
-	fmt.Println("Value received:", <-ch)
+	fmt.Println(<-ch) // Hello
 }

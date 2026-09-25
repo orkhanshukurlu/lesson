@@ -23,7 +23,7 @@ func main() {
 
 		go func(t string) {
 			defer wg2.Done()
-			fmt.Println("Processing:", t)
+			fmt.Println(t) // c b a
 		}(v)
 	}
 

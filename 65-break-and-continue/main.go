@@ -10,7 +10,7 @@ func main() {
 			break
 		}
 
-		fmt.Println(b)
+		fmt.Println(b) // 0 1 2
 		b++
 	}
 
@@ -19,7 +19,7 @@ func main() {
 			continue
 		}
 
-		fmt.Println(c)
+		fmt.Println(c) // 0 2
 	}
 
 	for i := range 3 {
@@ -29,6 +29,14 @@ func main() {
 			}
 
 			fmt.Println(i, j)
+			/*
+				0 0
+				0 1
+				0 2
+				2 0
+				2 1
+				2 2
+			*/
 		}
 	}
 }

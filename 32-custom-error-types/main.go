@@ -22,11 +22,11 @@ func handleError(s string) error {
 
 func main() {
 	s := errors.New("error")
-	fmt.Println(s)
+	fmt.Println(s) // error
 
 	err := handleError("")
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println(err) // validation error for field name
 	} else {
 		fmt.Println("no error")
 	}

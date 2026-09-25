@@ -7,7 +7,7 @@ func main() {
 	var experience = 6
 	var level = 0.7
 
-	fmt.Println("Programming language:", programmingLanguage)
-	fmt.Println("Experience:", experience)
-	fmt.Println("Level:", level)
+	fmt.Println(programmingLanguage) // GO
+	fmt.Println(experience)          // 6
+	fmt.Println(level)               // 0.7
 }

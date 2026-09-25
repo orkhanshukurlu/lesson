@@ -20,9 +20,9 @@ func div(a, b int) (d int, ok bool) {
 
 func main() {
 	n := square(5)
-	fmt.Println("square of 5:", n)
+	fmt.Println(n) // 25
 
 	r, ok := div(10, 2)
-	fmt.Println("r:", r)
-	fmt.Println("ok:", ok)
+	fmt.Println(r)  // 5
+	fmt.Println(ok) // true
 }

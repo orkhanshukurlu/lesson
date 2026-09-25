@@ -25,6 +25,6 @@ func main() {
 		Street: "123 Main St",
 	}
 
-	fmt.Println(u)
-	fmt.Println(u.Full())
+	fmt.Println(u)        // {John Doe {New York 123 Main St}}
+	fmt.Println(u.Full()) // New York, 123 Main St
 }

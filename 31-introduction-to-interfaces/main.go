@@ -33,6 +33,6 @@ func main() {
 	r := Rectangle{width: 10, height: 5}
 	c := Circle{radius: 5}
 
-	printArea(r)
-	printArea(c)
+	printArea(r) // 50
+	printArea(c) // 78.53981633974483
 }

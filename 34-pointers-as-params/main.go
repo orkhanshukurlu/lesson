@@ -18,9 +18,9 @@ func incrementScore(u *User) {
 func main() {
 	x := 5
 	addTen(&x)
-	fmt.Println(x)
+	fmt.Println(x) // 15
 
 	u := User{Name: "John", Score: 5}
 	incrementScore(&u)
-	fmt.Println(u.Score)
+	fmt.Println(u.Score) // 6
 }

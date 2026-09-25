@@ -19,5 +19,5 @@ func main() {
 	}
 
 	wg.Wait()
-	fmt.Println(count)
+	fmt.Println(count) // 5
 }

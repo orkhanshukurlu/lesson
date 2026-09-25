@@ -7,7 +7,7 @@ func describe(a string, b any) {
 }
 
 func main() {
-	describe("Name", "Alice")
-	describe("Age", 30)
-	describe("Height", 1.75)
+	describe("Name", "Alice") // Name: Alice (string)
+	describe("Age", 30)       // Age: 30 (int)
+	describe("Height", 1.75)  // Height: 1.75 (float64)
 }

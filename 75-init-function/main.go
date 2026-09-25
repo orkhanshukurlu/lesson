@@ -13,5 +13,5 @@ func init() {
 
 func main() {
 	fmt.Println("main function called")
-	fmt.Println(m)
+	fmt.Println(m) // map[a:A b:B]
 }

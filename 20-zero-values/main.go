@@ -17,12 +17,12 @@ func main() {
 
 	var s S
 
-	fmt.Println("int: ", a)
-	fmt.Println("string: ", b)
-	fmt.Println("bool: ", c)
-	fmt.Println("float64: ", d)
-	fmt.Println("complex64: ", e)
-	fmt.Println("byte: ", f)
-	fmt.Println("rune: ", g)
-	fmt.Println("struct: ", s.Name)
+	fmt.Println(a)      // 0
+	fmt.Println(b)      // ""
+	fmt.Println(c)      // false
+	fmt.Println(d)      // 0
+	fmt.Println(e)      // (0+0i)
+	fmt.Println(f)      // 0
+	fmt.Println(g)      // 0
+	fmt.Println(s.Name) // ""
 }

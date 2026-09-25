@@ -7,7 +7,7 @@ func main() {
 	var m map[string]string
 	var p *int
 
-	fmt.Println(s == nil)
-	fmt.Println(m == nil)
-	fmt.Println(p == nil)
+	fmt.Println(s == nil) // true
+	fmt.Println(m == nil) // true
+	fmt.Println(p == nil) // true
 }

@@ -8,12 +8,12 @@ func score() (int, int) {
 
 func main() {
 	a, b := 1, 2
-	fmt.Println("a:", a, "b:", b)
+	fmt.Println(a, b) // 1 2
 
 	c, d := score()
-	fmt.Println("c:", c, "d:", d)
+	fmt.Println(c, d) // 1 2
 
 	e, f := 1, 2
 	e, f = f, e
-	fmt.Println("e:", e, "f:", f)
+	fmt.Println(e, f) // 2 1
 }
